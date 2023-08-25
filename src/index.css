@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.drawer-side a.active {
+  background: white;
+  border-color: aliceblue;
+  color: brown;
+}
+
+.drawer-side a {
+  background-color: transparent;
+}
+
+* {
+  font-family: 'Lora', serif;
+  font-family: 'Poppins', sans-serif;
+}
