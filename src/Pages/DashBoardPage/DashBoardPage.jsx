@@ -1,5 +1,6 @@
 import React from 'react';
 import DashBoardPart1 from './DashBoardPart1';
+import DashBoardPart2 from './DashBoardPart2';
 
 const DashBoardPage = () => {
     return (
@@ -9,8 +10,8 @@ const DashBoardPage = () => {
                     <div className="col-span-2  ">
                         <DashBoardPart1></DashBoardPart1>
                     </div>
-                    <div className="  bg-gray-300">
-                       2
+                    <div className="  ">
+                       <DashBoardPart2></DashBoardPart2>
                     </div>
                     <div className="col-span-2  bg-gray-300">3</div>
                     <div className=" bg-gray-300">4</div>
