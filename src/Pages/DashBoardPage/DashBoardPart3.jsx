@@ -4,7 +4,7 @@ import img1 from '../../assets/image/Avalon-PNG1.png'
 import img2 from '../../assets/image/Avalon-PNG2.png'
 const DashBoardPart3 = () => {
     return (
-        <div className='px-4 py-2'>
+        <div className='px-4 py-8'>
             <div>
                 <div className='flex justify-between items-center mb-3'>
                     <div >
@@ -26,11 +26,11 @@ const DashBoardPart3 = () => {
                         <p className='text-blue-700'>See all</p>
                     </div>
                 </div>
-
+ 
             </div>
 
             <div className='rounded-lg shadow-md bg-white shadow-gray-400 '>
-                <div className='grid grid-cols-1 shadow-gray-400 border-b-2 border-gray-300 p-2 my-4 px-3 relative'>
+                <div className='grid grid-cols-1 shadow-gray-400 border-b-2 border-gray-300 p-2 my-5 py-5 px-3 relative'>
                     <FaBookmark className='absolute top-2 right-4'></FaBookmark>
 
                     <div className='flex justify-between px-4 py-2'>
@@ -40,7 +40,7 @@ const DashBoardPart3 = () => {
                                     <img src={img1} alt="Tailwind-CSS-Avatar-component" />
                                 </div>
                             </div>
-                            <div>
+                            <div className='space-y-2'>
                                 <h5 className='font-semibold'>UX Designer</h5>
                                 <p className='font-thin text-gray-500 text-sm'>Avalon Meta,Mumbai</p>
                                 <div className='flex text-xs space-x-1 items-center'>
@@ -58,7 +58,7 @@ const DashBoardPart3 = () => {
                     </div>
                 </div>
                 {/* sec2  */}
-                <div className='grid grid-cols-1 shadow-gray-400 border-b-2 border-gray-300 p-2 my-4 px-3 relative'>
+                <div className='grid grid-cols-1 shadow-gray-400 border-b-2 border-gray-300 p-2 py-5  my-5 px-3 relative'>
                     <FaBookmark className='absolute top-2 right-4'></FaBookmark>
 
                     <div className='flex justify-between px-4 py-2'>
@@ -68,7 +68,7 @@ const DashBoardPart3 = () => {
                                     <img src={img1} alt="Tailwind-CSS-Avatar-component" />
                                 </div>
                             </div>
-                            <div>
+                            <div className='space-y-2'>
                                 <h5 className='font-semibold'>UX Designer</h5>
                                 <p className='font-thin text-gray-500 text-sm'>CRED,Bengaluru</p>
                                 <div className='flex text-xs space-x-1 items-center'>
