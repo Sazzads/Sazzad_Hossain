@@ -30,7 +30,7 @@ const Dashboard = () => {
                                 </NavLink>
                             </li>
                             <li className=' my-2'>
-                                <NavLink  to='/myjobs'>
+                                <NavLink  to='/'>
                                     <span className='flex flex-col items-center justify-center'>
                                         <FaShoppingBag className='text-3xl text-white text-center'></FaShoppingBag>
                                         <span className='text-white mt-2 text-center w-20'>My Jobs</span>

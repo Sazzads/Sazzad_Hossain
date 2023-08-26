@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from '../Layout/Main';
 import Dashboard from '../Layout/Dashboard';
 import DashBoardPage from '../Pages/DashBoardPage/DashBoardPage';
-import Myjobs from '../Pages/Myjobs';
+import Myjobs from '../Pages/JobsPage/Myjobs';
 
 const router = createBrowserRouter([
     {
@@ -18,15 +18,17 @@ const router = createBrowserRouter([
                         path: "dashboardpage",
                         element: <DashBoardPage></DashBoardPage>,
                     },
-                    {
-                        path: "Myjobs",
-                        element: <Myjobs></Myjobs>,
-                    }
+
                 ]
             },
 
+
         ]
     },
+    {
+        path: "/Myjobs",
+        element: <Myjobs></Myjobs>,
+    }
 ]);
 
 export default router;
