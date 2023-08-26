@@ -10,6 +10,7 @@ const Dashboard = () => {
                 <div className="drawer-content flex flex-col ">
                     {/* Page content here */}
                     <Outlet></Outlet>
+                
                     <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
 
                 </div>
@@ -22,7 +23,7 @@ const Dashboard = () => {
                         <div >
 
                             <li className=' my-2'>
-                                <NavLink  to='/dashboardpage'>
+                                <NavLink  to='dashboardpage'>
                                     <div className='flex flex-col items-center justify-center'>
                                         <FaThLarge className='text-3xl text-white text-center'></FaThLarge>
                                         <div className='text-white mt-2 text-center w-20'>Dashboard</div>
@@ -30,7 +31,7 @@ const Dashboard = () => {
                                 </NavLink>
                             </li>
                             <li className=' my-2'>
-                                <NavLink  to='/'>
+                                <NavLink  to='/myjobs'>
                                     <span className='flex flex-col items-center justify-center'>
                                         <FaShoppingBag className='text-3xl text-white text-center'></FaShoppingBag>
                                         <span className='text-white mt-2 text-center w-20'>My Jobs</span>

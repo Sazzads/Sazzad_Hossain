@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from "../assets/image/aviatelogo.png"
-import profilePic from "../assets/image/76070548935.png"
-import icon1 from "../assets/image/Group.png"
-import icon2 from "../assets/image/messages-icon.png"
-import icon3 from "../assets/image/award.png"
+import logo from "../../assets/image/aviatelogo.png"
+import profilePic from "../../assets/image/76070548935.png"
+import icon1 from "../../assets/image/Group.png"
+import icon2 from "../../assets/image/messages-icon.png"
+import icon3 from "../../assets/image/award.png"
 import { FaBell, FaBookmark, FaCommentAlt, FaSearch } from "react-icons/fa";
 const Navbar = () => {
     return (

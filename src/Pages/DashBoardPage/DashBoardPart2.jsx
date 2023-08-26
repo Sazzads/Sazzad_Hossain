@@ -7,7 +7,7 @@ const DashBoardPart2 = () => {
     return (
         <div className='bg-white px-4 rounded-lg shadow-md'>
             <div className='flex justify-between'>
-                <div className='w-72 h-48'>
+                <div className='w-72 h-48 mx-auto'>
                     <Lottie animationData={file} loop={true} />
                 </div>
                 <div className='mt-16'>

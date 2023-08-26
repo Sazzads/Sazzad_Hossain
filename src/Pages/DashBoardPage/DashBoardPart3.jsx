@@ -65,7 +65,7 @@ const DashBoardPart3 = () => {
                         <div className='flex gap-4'>
                             <div className="avatar">
                                 <div className="w-16 rounded">
-                                    <img src={img1} alt="Tailwind-CSS-Avatar-component" />
+                                    <img src={img2} alt="Tailwind-CSS-Avatar-component" />
                                 </div>
                             </div>
                             <div className='space-y-2'>

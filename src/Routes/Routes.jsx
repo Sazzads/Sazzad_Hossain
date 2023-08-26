@@ -4,6 +4,7 @@ import Main from '../Layout/Main';
 import Dashboard from '../Layout/Dashboard';
 import DashBoardPage from '../Pages/DashBoardPage/DashBoardPage';
 import Myjobs from '../Pages/JobsPage/Myjobs';
+import MainPage from '../Pages/MainPage';
 
 const router = createBrowserRouter([
     {
@@ -12,16 +13,18 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Dashboard></Dashboard>,
-                children: [
-                    {
-                        path: "dashboardpage",
-                        element: <DashBoardPage></DashBoardPage>,
-                    },
-
-                ]
+                element: <MainPage></MainPage>,
             },
-
+            {
+                path:'dashboard',
+                element:<Dashboard></Dashboard>,
+                children:[
+                    {
+                        path:'dashboardpage',
+                        element:<DashBoardPage></DashBoardPage>
+                    }
+                ]
+            }
 
         ]
     },

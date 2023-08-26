@@ -25,9 +25,9 @@ const Table = () => {
                             <td>Full TIme</td>
                             <td className=''>
                                 <div className='text-center space-x-5 text-lg'>
-                                    <FaEye className=' inline text-[#338573]'></FaEye>
-                                    <FaPen className=' inline text-[#04BCF6]'></FaPen>
-                                    <FaTrash className=' inline text-[#FA0606]'></FaTrash>
+                                    <FaEye className=' inline text-[#338573] cursor-pointer'></FaEye>
+                                    <FaPen className=' inline text-[#04BCF6] cursor-pointer'></FaPen>
+                                    <FaTrash className=' inline text-[#FA0606] cursor-pointer'></FaTrash>
                                 </div>
                             </td>
                         </tr>
