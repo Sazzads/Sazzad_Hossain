@@ -8,7 +8,7 @@ const DashBoardPage = () => {
     return (
         <div>
             <div className='p-3 bg-slate-100'>
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid md:grid-cols-3 gap-4">
                     <div className="col-span-2  ">
                         <DashBoardPart1></DashBoardPart1>
                     </div>

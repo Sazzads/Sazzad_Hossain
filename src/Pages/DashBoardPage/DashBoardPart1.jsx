@@ -36,11 +36,11 @@ const DashBoardPart1 = () => {
                                 <p className='text-gray-600'>Bengaluru,India</p>
                             </div>
                         </div>
-                        <div className='text-center'>
+                        <div className='text-center hidden md:block'>
                             <h5 className='font-semibold'>₹ 50K-₹ 70k</h5>
                             <small className='font-thin text-gray-500 text-xs'>Per Month</small>
                         </div>
-                        <div className='flex items-center justify-end'>
+                        <div className='flex items-center justify-end '>
                             <button className='bg-[#FFAAAA] rounded-lg py-1 px-3 text-xs me-2 text-red-800'>Rejected</button>
                             <FaQuestionCircle className='text-[#BC0F0F] rounded-full border-red-800 border-2 text-xl'></FaQuestionCircle>
                         </div>
@@ -62,11 +62,11 @@ const DashBoardPart1 = () => {
                                 <p className='text-gray-600'>Bengaluru,India</p>
                             </div>
                         </div>
-                        <div className='text-center'>
+                        <div className='text-center hidden md:block'>
                             <h5 className='font-semibold'>₹ 50K-₹ 70k</h5>
                             <small className='font-thin text-gray-500 text-xs'>Per Month</small>
                         </div>
-                        <div className=''>
+                        <div className='hidden md:block'>
                             <div className='flex flex-col items-end justify-center me-5 my-2'>
                                 <button className='bg-[#FFF3B2] rounded-lg py-1 px-3 text-xs text-[#AE9407]'>In Progress</button>
                                 <h5 className='text-[#FF0808] text-xs font-thin mt-1 '>70% Chances</h5>
@@ -91,11 +91,11 @@ const DashBoardPart1 = () => {
                                 <p className='text-gray-600'>Bengaluru,India</p>
                             </div>
                         </div>
-                        <div className='text-center'>
+                        <div className='text-center hidden md:block'>
                             <h5 className='font-semibold'>₹ 50K-₹ 70k</h5>
                             <small className='font-thin text-gray-500 text-xs'>Per Month</small>
                         </div>
-                        <div className=''>
+                        <div className='hidden md:block'>
                             <div className='grid grid-cols-3 justify-center my-5 me-4 '>
                                 <div></div>
                                 <div></div>
